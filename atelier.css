@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Redressed', cursive;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid black;
+}
+
+nav h1 {
+    color: black;
+    font-size: 50px;
+}
+
+nav .onglets {
+    margin-top: 3px;
+    margin-left: 300px;
+}
+
+nav .onglets a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-right: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+nav img {
+    height: 200px;
+}
+
+nav h2 {
+    display: flex;
+    position: relative;
+    top: 80px;
+    right: 80px;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 680px) {
+    nav .onglets {
+        display: inline-block;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+.atelier{
+    margin-top: 40px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+}
+.atelier h1{
+    font-size: xx-large;
+}
+
+.atelier h2{
+    font-size: x-large;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+}

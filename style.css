@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Redressed', cursive;
+}
+
+
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid black;
+}
+
+nav h1 {
+    color: black;
+    font-size: 50px;
+}
+
+nav .onglets {
+    margin-top: 3px;
+    margin-left: 300px;
+}
+
+nav .onglets a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-right: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+nav img {
+    height: 200px;
+}
+
+nav h2 {
+    display: flex;
+    position: relative;
+    top: 80px;
+    right: 80px;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 680px) {
+    nav .onglets {
+        display: inline-block;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+.service {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 5px solid black;
+    height: 500px;
+    overflow: auto;
+    font-size: larger;
+
+}
+.imagesCarroussel {
+    display: flex;
+    
+
+}
+
+.service img {
+    height: 418px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.image1{
+    background-color: #d4bcc9;
+}
+
+.image2{
+    background-color: #67736f;
+
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    
+    
+
+}
+
+i{
+    padding-top: 20px;
+    font-size: 2.5rem;
+    padding-right: 20px;
+    
+}
+
+
+.realisation{
+    display: flex;
+
+}
+
+.realisation img{
+    width: 19.3%;
+}
+
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Redressed', cursive;
+}
+
+
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid black;
+}
+
+nav h1 {
+    color: black;
+    font-size: 50px;
+}
+
+nav .onglets {
+    margin-top: 3px;
+    margin-left: 300px;
+}
+
+nav .onglets a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-right: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+nav img {
+    height: 200px;
+}
+
+nav h2 {
+    display: flex;
+    position: relative;
+    top: 80px;
+    right: 80px;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 680px) {
+    nav .onglets {
+        display: inline-block;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 5px solid black;
+    height: 500px;
+    overflow: auto;
+
+}
+
+header img {
+    height: 415px;
+    width: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+.imagesCarroussel {
+    display: flex;
+    
+
+}
+
+.section1 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/Images/branche.jpg), url(/Images/fleur.jpg);
+    background-position: 10px, 100%;
+    background-size: 500px, 488px;
+    background-repeat: repeat-y;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.section1 .card {
+    background-color: white;
+    width: 360px;
+    box-shadow: 0px 5px 20px #999;
+    margin-right: 20px;
+    display: flex;
+
+}
+
+.up img {
+    height: 150px;
+
+}
+.section1 h1{
+    font-size: xx-large;
+}
+.section1 h2 {
+    margin: auto;
+}
+
+.section1 h3 {
+    width: 50px;
+
+}
+
+.section1 p {
+    margin-right: 10px;
+}
