@@ -53,18 +53,50 @@ nav h2 {
 }
 
 .atelier{
-    margin-top: 40px;
     display: flex;
-    flex-direction:column;
-    align-items: center;
-    
+    flex-direction: column;
 }
+
 .atelier h1{
+    align-self: center;
     font-size: xx-large;
 }
+.ateliers{
+    margin-left: 40px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    
+    
+}
+
 
 .atelier h2{
     font-size: x-large;
+}
+.atelier p{
+    margin-left: 5px;
+    font-size: larger;
+}
+.Julie{
+    border: 1px solid;
+    width: 48%;
+}
+
+.Lucie{
+    border: 1px solid;
+    width: 48%;
+    margin-left: 40px;
+}
+
+.up{
+    display: flex;
+    justify-content: space-between;
+}
+
+i{
+    font-size: 2.5rem;
+    margin: 10px;
 }
 
 footer {

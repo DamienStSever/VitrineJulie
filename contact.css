@@ -60,9 +60,6 @@ nav h2 {
     display: flex;
     flex-direction:column;
     align-items: flex-end ;
-    background-image: url(Images/Emballages.jpg);
-    background-size: 1000px;
-    background-repeat: no-repeat;
     margin-left: 50px;
     padding-bottom: 600px;
 }
